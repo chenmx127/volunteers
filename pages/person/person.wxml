@@ -1,2 +1,5 @@
 <!--pages/person/person.wxml-->
-<text>pages/person/person.wxml</text>
+<view class="beijing">
+      <image src="../../img/toutou.jpg"></image>
+      <view>个人中心</view>
+</view>
