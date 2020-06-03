@@ -21,9 +21,7 @@
 		<image class="title-img" src="{{item.tit_img}}"></image><text class="con-text">{{item.title}}</text>
 		<text class="most">查看更多></text>
 	</view>
-	<view>
-		<template is="actItem" data="{{item}}"/>
-		<template is="actItem" data="{{item}}"/>
+	<view wx:for="{{actlist}}" wx:key="index">
 		<template is="actItem" data="{{item}}"/>
 	</view>
 </view>
