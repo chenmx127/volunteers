@@ -1,1 +1,97 @@
-/* pages/actives/actives.wxss */
+page{
+  background-color: #eee;
+}
+.act_box {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  margin: auto;
+}
+.act_img {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  margin-top: 10rpx;
+}
+.item_box {
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.item_active {
+  width: 500rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+}
+.jion {
+  font-size: 40rpx;
+  color: #f99;
+  font-weight: 700rpx;
+}
+.after {
+  font-size: 40rpx;
+  color: #000;
+  font-weight: 700rpx;
+}
+.line {
+  width: 700rpx;
+  height: 10rpx;
+  margin: auto;
+  border-radius: 10rpx;
+  background: linear-gradient(to right,#f99,#fff);
+  margin-top: 30rpx;
+}
+.detil {
+  width: 700rpx;
+  height: 220rpx;
+  border-radius: 10rpx;
+  background-color: #fff;
+  margin: 5rpx auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.detil_img {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 5rpx;
+}
+.detil_text {
+  width: 270rpx;
+  height: 150rpx;
+}
+.prog {
+  font-size: 30rpx;
+  color: #333;
+  font-weight: 900rpx;
+  margin-bottom: 15rpx;
+}
+.address {
+  font-size: 22rpx;
+  color: #ccc;
+  margin-bottom: 7rpx;
+}
+.time {
+  font-size: 22rpx;
+  color: #ccc;
+  margin-bottom: 7rpx;
+}
+.origan {
+  font-size: 22rpx;
+  color: #ccc;
+  margin-bottom: 7rpx;
+}
+.look_box {
+  width: 130rpx;
+  height: 50rpx;
+  background-color: rgb(245, 87, 87);
+  text-align: center;
+  line-height: 39rpx;
+  border-radius: 30rpx;
+  margin-top: 100rpx;
+}
+.look {
+  font-size: 28rpx;
+  color: #fff;
+}
