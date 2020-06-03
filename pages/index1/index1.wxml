@@ -1,12 +1,42 @@
 <!--pages/index1/index1.wxml-->
 <view class="page-body">
 	<view class="page-section page-section-spacing swiper">
-		<swiper indicator-dots="true" autoplay="true" interval="1000" duration="500">
+		<swiper indicator-dots="true" autoplay="true" interval="2000" duration="500">
 			<block wx:for="{{background}}" wx:key="index">
 				<swiper-item>
-					<image class="banner-img"></image>
+					<image class="banner-img" src="{{item}}"></image>
 				</swiper-item>
 			</block>
 		</swiper>
 	</view>
 </view>
+<view class="sort-con">
+	<view class="sort-b" wx:for="{{imglist}}" wx:key="index">
+		<image class="sort-img" src="{{item.path}}"></image>
+		<text class="sort-text">{{item.value}}</text>
+	</view>
+</view>
+<view class="content" wx:for="{{contentlist}}" wx:key="index">
+	<view class="title">
+		<image class="title-img" src="{{item.tit_img}}"></image><text class="con-text">{{item.title}}</text>
+		<text class="most">查看更多></text>
+	</view>
+	<view>
+		<template is="actItem" data="{{item}}"/>
+		<template is="actItem" data="{{item}}"/>
+		<template is="actItem" data="{{item}}"/>
+	</view>
+</view>
+
+<template name="actItem">
+	<view class="act-box">
+		<image class="act-img" src="{{item.img}}"></image>
+		<view class="act-right">
+			<text class="act-title">{{item.con_title}}</text>
+			<text class="act-address">地点：{{item.address}}</text>
+			<text class="act-hour">时间：{{item.hour}}</text>
+			<text class="act-person">组织者：{{item.person}}</text>
+		</view>
+		<text class="act-seen">查看</text>
+	</view>
+</template>

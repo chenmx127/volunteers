@@ -8,7 +8,7 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText":"活动资讯",
+    "navigationBarTitleText":"",
     "navigationBarTextStyle":"black"
   },
   "tabBar": {
