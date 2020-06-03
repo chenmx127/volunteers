@@ -1,13 +1,45 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/index1/index1",
+    "pages/actives/actives",
+    "pages/person/person"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText":"活动资讯",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#D62B31",
+    "list": [
+      {
+        "iconPath":"/img/shou.png",
+        "selectedIconPath":"/img/shou-b.png",
+        "pagePath": "pages/index/index",
+        "text": "首页1"
+      },
+      {
+        "iconPath":"/img/shou.png",
+        "selectedIconPath":"/img/shou-b.png",
+        "pagePath": "pages/index1/index1",
+        "text": "首页"
+      },
+      {
+        "iconPath":"/img/huodong.png",
+        "selectedIconPath":"/img/huodong-b.png",
+        "pagePath": "pages/actives/actives",
+        "text": "活动"
+      },
+      {
+        "iconPath":"/img/person.png",
+        "selectedIconPath":"/img/person-b.png",
+        "pagePath": "pages/person/person",
+        "text": "个人中心"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
