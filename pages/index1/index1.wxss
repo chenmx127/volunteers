@@ -1,1 +1,7 @@
 /* pages/index1/index1.wxss */
+.page-body {
+  width: 100%;
+}
+.banner-img{
+  width: 100%;
+}
