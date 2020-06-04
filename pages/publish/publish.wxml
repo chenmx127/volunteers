@@ -4,10 +4,10 @@
 </view>
 <view class="item_box">
   <view class="item_active">
-    <text class="jion">正在发布</text>
+    <text class="jion" bindtap="jump" data-id="0">正在发布</text>
   </view>
   <view class="item_active">
-    <text class="after">过往发布</text>
+    <text class="after" bindtap="jump" data-id="1">过往发布</text>
   </view>
 </view>
 <view class="line"></view>
@@ -23,6 +23,6 @@
 			<text class="act-hour">时间：{{item.hour}}</text>
 			<text class="act-person">组织者：{{item.person}}</text>
 		</view>
-		<text class="act-seen">查看</text>
+		<navigator class="act-seen" url="../set_act/set_act">查看</navigator>
 	</view>
 </template>

@@ -1,4 +1,5 @@
 // pages/publish/publish.js
+let actPub=require('../../utils/api.js')
 Page({
 
   /**
@@ -14,8 +15,18 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-
+  onLoad(options) {
+    actPub.TEER('/volunteer/website/huodongList','GET',{},res=>{
+      console.log(res);
+      this.setData({
+        yy:res.data.data.list.bmcount
+      })
+    })
+  },
+  jump(e){
+    console.log(e);
+    let name=e.currentTarget.dataset.id;
+    console.log(name);
   },
 
   /**

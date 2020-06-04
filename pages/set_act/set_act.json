@@ -2,6 +2,6 @@
   "usingComponents": {},
   "backgroundTextStyle":"light",
   "navigationBarBackgroundColor": "#eee",
-  "navigationBarTitleText": "",
+  "navigationBarTitleText": "创建活动",
   "navigationBarTextStyle":"black"
 }

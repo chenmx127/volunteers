@@ -1,4 +1,45 @@
 /**app.wxss**/
+.act_box {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  margin: auto;
+}
+.act_img {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  margin-top: 10rpx;
+}
+.item_box {
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.item_active {
+  width: 500rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+}
+.jion {
+  font-size: 40rpx;
+  color: #f99;
+  font-weight: 700rpx;
+}
+.after {
+  font-size: 40rpx;
+  color: #000;
+  font-weight: 700rpx;
+}
+.line {
+  width: 700rpx;
+  height: 10rpx;
+  margin: auto;
+  border-radius: 10rpx;
+  background: linear-gradient(to right,#f99,#fff);
+  margin-top: 30rpx;
+}
 .container {
   height: 100%;
   display: flex;
@@ -27,8 +68,10 @@
   float: left;
 }
 .act-right{
+  width: 450rpx;
   float: left;
   margin-left: 30rpx;
+  overflow: hidden;
 }
 .act-right text{
   display: block;

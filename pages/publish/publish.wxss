@@ -1,1 +1,4 @@
 /* pages/publish/publish.wxss */
+page{
+  background-color: #eee;
+}
