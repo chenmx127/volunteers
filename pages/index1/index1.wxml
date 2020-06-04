@@ -21,20 +21,24 @@
 		<image class="title-img" src="{{item.tit_img}}"></image><text class="con-text">{{item.title}}</text>
 		<text class="most">查看更多></text>
 	</view>
-	<view wx:for="{{actlist}}" wx:key="index">
+	<view wx:for="{{actList}}" wx:key="index">
 		<template is="actItem" data="{{item}}"/>
 	</view>
+</view>
+<view>
+	<navigator url="../details/details">跳转详情</navigator>
 </view>
 
 <template name="actItem">
 	<view class="act-box">
-		<image class="act-img" src="{{item.img}}"></image>
+		<image class="act-img" src="https://cishan.xabcx.cn{{item.imgList[0]}}"></image>
 		<view class="act-right">
 			<text class="act-title">{{item.title}}</text>
 			<text class="act-address">地点：{{item.address}}</text>
-			<text class="act-hour">时间：{{item.hour}}</text>
-			<text class="act-person">组织者：{{item.person}}</text>
+			<text class="act-hour">时间：{{item.date}}</text>
+			<text class="act-person">组织者：志愿者协会</text>
 		</view>
 		<text class="act-seen">查看</text>
 	</view>
+	
 </template>

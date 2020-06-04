@@ -1,0 +1,68 @@
+<!--pages/details/details.wxml 详情-->
+<view class="page-body">
+	<image src="https://cishan.xabcx.cn{{detlist.imgList[0]}}" class="det-img"></image>
+	<text class="det-tit">{{detlist.title}}</text>
+	<text class="det-tit-eng">Grand opening poly benefit the whole city</text>
+	<text class="det-text">活动时间：{{detlist.createDate}}</text>
+
+	<view class="det-nav">
+		<text class="det-nav-ce"></text>
+		<text class="det-nav-text">活动特色</text>
+		<text class="det-nav-xian"></text>
+	</view>
+	<view class="det-tese">
+		<text class="det-tese-one">年龄不限</text>
+		<text class="det-tese-two">招{{detlist.count}}人</text>
+		<text class="det-tese-three" wx:if="{{detlist.sex==='不限'}}">男女不限</text>
+    <text class="det-tese-three" wx:elif="{{detlist.sex==='男'}}">仅限男生</text>
+    <text class="det-tese-three-n" wx:else></text>
+	</view>
+	<view class="det-nav">
+		<text class="det-nav-ce"></text>
+		<text class="det-nav-text">活动内容</text>
+		<text class="det-nav-xian"></text>
+	</view>
+  <view class="det-con">
+  <text class="det-con-text">{{detlist.content}}</text>
+  </view>
+<view class="det-nav">
+		<text class="det-nav-ce"></text>
+		<text class="det-nav-text">活动时间</text>
+		<text class="det-nav-xian"></text>
+	</view>
+<view class="det-data">
+<image src="../../img/hdsj.png"></image>
+  <text>开始时间：</text><text class="det-s">{{detlist.createDate}}</text>
+  <text>结束时间：</text><text class="det-s">{{detlist.endDate}}</text>
+</view>
+<view class="det-nav">
+		<text class="det-nav-ce"></text>
+		<text class="det-nav-text">活动地址</text>
+		<text class="det-nav-xian"></text>
+	</view>
+  <view class="det-map">
+  <image src="../../img/ditu.png"></image>
+  </view>
+<view class="det-nav">
+		<text class="det-nav-ce"></text>
+		<text class="det-nav-text">发布者信息</text>
+		<text class="det-nav-xian"></text>
+	</view>
+
+  <view class="per">
+    <image class="per-tou" src="../../img/touxiang2.jpg"></image>
+    <view class="per-con">
+    <text>联系人：韩先生</text>
+    <text>联系电话：13854956584</text>
+    </view>
+    <image class="per-img" src="../../img/jiantou.png"></image>
+  </view>
+  <view class="baomin">
+  我要报名
+    <text>25人已报名</text>
+  </view>
+  <view class="agree">
+  <view class="agree-no" hover-class="no"></view>
+  我已经阅读并同意<text>《用户报名条例》</text>
+  </view>
+</view>

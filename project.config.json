@@ -10,8 +10,8 @@
 		"preloadBackgroundData": false,
 		"minified": true,
 		"newFeature": true,
-		"coverView": true,
 		"autoAudits": false,
+		"coverView": true,
 		"showShadowRootInWxmlPanel": true,
 		"scopeDataCheck": false,
 		"checkInvalidKey": true,
@@ -27,7 +27,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.11.1",
-	"appid": "wx4bc604de2ad6eecb",
+	"appid": "wx227d472e874c9d9e",
 	"projectname": "volunteers",
 	"debugOptions": {
 		"hidedInDevtools": []
