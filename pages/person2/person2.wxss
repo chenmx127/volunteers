@@ -1,0 +1,35 @@
+/* pages/person2/person2.wxss */
+.person2-head{
+  width:90%;
+  margin:0 auto;
+}
+.person2-head .top .left .vlter-1{
+  font-size: 55rpx;
+}
+.person2-head .top .left .vlter-2{
+  font-size: 30rpx;
+}
+.person2-head .top .left view{
+  background-color: pink;
+  width: 200rpx;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 23rpx;
+  padding: 2rpx 8px;
+  align-items: center;
+  margin-top: 20rpx;
+}
+.person2-head .top .left view image{
+  width: 40rpx;
+  height: 50rpx;
+
+}
+.person2-head .top{
+  display: flex;
+  justify-content: space-between;
+}
+.person2-head .top .p2-touxiang{
+  width:150rpx;
+  height:150rpx;
+  border-radius: 50%;
+}

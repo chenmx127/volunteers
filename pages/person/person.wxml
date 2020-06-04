@@ -32,8 +32,8 @@
 <view class="person-menus">
 	<!-- 个人中心的下部的列表 -->
 	<view class="person-menu">
-		<view> <text>我的资料</text>
-			<image src="../../img/jiantou.png"></image>
+		<view> <navigator url="../person2/person2"><text>我的资料</text></navigator>   	<!-- 跳转到志愿者资料 -->
+		<navigator url="../person1/person1"><image src="../../img/jiantou.png"></image></navigator>   <!-- 跳转到编辑个人资料的页面 后面重新更换接口-->
 		</view>
 		<view> <text>政策法规</text>
 			<image src="../../img/jiantou.png"></image>
