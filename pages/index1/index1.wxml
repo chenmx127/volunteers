@@ -30,7 +30,7 @@
 	<view class="act-box">
 		<image class="act-img" src="{{item.img}}"></image>
 		<view class="act-right">
-			<text class="act-title">{{item.con_title}}</text>
+			<text class="act-title">{{item.title}}</text>
 			<text class="act-address">地点：{{item.address}}</text>
 			<text class="act-hour">时间：{{item.hour}}</text>
 			<text class="act-person">组织者：{{item.person}}</text>
