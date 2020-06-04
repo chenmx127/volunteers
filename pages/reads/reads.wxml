@@ -1,0 +1,7 @@
+<!--pages/reads/reads.wxml-->
+<view class="force_now">
+ <image src="../../img/zcfg1.png"></image>
+</view>
+<view class="have-been">
+  <image src="../../img/hdzm2.png"></image>
+</view>

@@ -1,0 +1,16 @@
+/* pages/reads/reads.wxss */
+.force_now {
+    width: 100%;
+   height: 1100rpx;
+}
+.force_now image{
+  width: 100%;
+ height: 100%;
+}
+.have-been {
+   width: 100%;
+}
+.have-been image {
+  width: 100%;
+  height: 100rpx;
+}

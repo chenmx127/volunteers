@@ -5,7 +5,10 @@
     "pages/actives/actives",
     "pages/person/person",
     "pages/publish/publish",
-    "pages/details/details"
+    "pages/details/details",
+    "pages/choose/choose",
+    "pages/reads/reads",
+    "pages/list/list"
   ],
   "window":{
     "backgroundTextStyle":"light",

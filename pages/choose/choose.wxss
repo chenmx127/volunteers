@@ -1,0 +1,84 @@
+/* pages/choose/choose.wxss */
+.nav-lets {
+   width: 100%;
+   height: 500rpx;
+   position: absolute;
+   background: linear-gradient(to bottom,#EF8A8E,#fff);
+}
+ .persion {
+      text-align: center;  
+       color: #DB2E2F;
+        font-weight: 700;
+        font-size: 46rpx;
+       position: relative;
+       top: 30%;
+       left: 0;  
+} 
+.conslon-box {
+   position: relative;
+    top: 363rpx; 
+    
+}
+.client-side {
+    width: 460rpx;
+    height: 90rpx;
+    color: #fff;
+    margin:0 auto;
+    text-align: center;
+    border-radius: 60rpx;
+    background: linear-gradient(to right,#EF8A8E,#F8CCCE)
+   
+  }
+.civit,.item-vit,.president {
+  font-weight: 700;
+   font-size: 34rpx;
+    position: relative;
+    bottom: 30rpx;
+    left: 40rpx;
+}
+.client-side image {
+  width: 90rpx;
+  height: 90rpx;
+}
+
+.cuntion {
+  width: 460rpx;
+  height: 90rpx;
+  position: relative;
+  top: 60rpx;
+  color: #82020B;
+  text-align: center;
+  border-radius: 60rpx;
+  margin:0 auto;
+  background-color: #ECEEF1;
+}
+.cuntion image {
+  width: 90rpx;
+  height: 90rpx;
+}
+.new-what {
+  width: 460rpx;
+  height: 90rpx;
+  position: relative;
+  top: 120rpx;
+  color: #82020B;
+  text-align: center;
+  border-radius: 60rpx;
+  margin:0 auto;
+  background-color: #ECEEF1;
+}
+.new-what image {
+  width: 90rpx;
+  height: 90rpx;
+}
+.submit-vit {
+   height: 100rpx;
+   width: 100%;
+   background-color: #E13538;
+   color: #fff;
+   position: fixed;
+   bottom: 0;
+   text-align: center;
+    line-height: 100rpx;  
+    font-size: 32rpx;
+}
