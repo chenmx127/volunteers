@@ -1,0 +1,10 @@
+<!--pages/person2/person2.wxml-->
+<view class="person2-head">
+  <view class="top">
+      <view class="left">
+          <text class="vlter-1">志愿者</text>
+          <view> <image src="../../img/xingji.png"></image> <text class="vlter-2">星际志愿者</text></view>
+      </view>
+      <image class="p2-touxiang" src="../../img/touxiang2.jpg"></image>
+  </view>
+</view>

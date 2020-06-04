@@ -1,0 +1,189 @@
+/* pages/details/details.wxss */
+.page-body{
+  width: 660rpx;
+  overflow: hidden;
+  margin: auto;
+}
+.det-img{
+  width: 100%;
+  height: 350rpx;
+  border-radius: 20rpx;
+}
+.det-tit{
+  display: block;
+  font-size: 40rpx;
+}
+.det-tit-eng{
+  display: block;
+  color: #666;
+  font-size: 30rpx;
+  margin-bottom: 10rpx;
+}
+.det-text{
+  display: block;
+  font-size: 32rpx;
+  color: #ccc;
+}
+.det-nav{
+  margin-top: 60rpx;
+  width: 100%;
+  height: 50rpx;
+  position: relative;
+  color: #D73036;
+}
+.det-nav-ce{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5rpx;
+  height: 50rpx;
+  background-color: #D62B31;
+}
+.det-nav-text{
+  position: absolute;
+  top: 0;
+  left: 10rpx;
+  z-index: 5;
+  background-color: #fff;
+  padding: 0 20rpx;
+}
+.det-nav-xian{
+  position: absolute;
+  width: 90%;
+  height: 5rpx;
+  top: 30rpx;
+  right: 0;
+  background-color: #D1D2D4;
+}
+.det-tese{
+  margin-top: 30rpx;
+  font-size: 30rpx;
+}
+.det-tese text{
+  padding: 5rpx 15rpx; 
+  margin-left: 30rpx;
+  border-radius: 10rpx;
+}
+.det-tese-one{
+  color: #00B57B;
+  border: 2rpx solid #00B57B;
+}
+.det-tese-two{
+  color: #4799F5;
+  border: 2rpx solid #4799F5;
+}
+.det-tese-three{
+  color: #14BB18;
+  border: 2rpx solid #14BB18;
+}
+.det-tese-three-n{
+  display: none;
+}
+.det-data {
+  position: relative;
+}
+.det-data text{
+  display: inline-block;
+  color: #493C3E;
+  margin-top: 30rpx;
+}
+.det-data .det-s{
+  color: #AFA0A0;
+  margin-left: 50rpx;
+}
+.det-data image{
+  width: 40rpx;
+  height: 115rpx;
+  position: absolute;
+  top: 38rpx;
+  left: 185rpx;
+}
+.det-con{
+  margin-top: 30rpx;
+}
+.det-con-text{
+  font-size: 28rpx;
+  color: #493C3E;
+}
+
+.det-map{
+  margin-top: 30rpx;
+  width: 100%;
+  height: 200rpx;
+}
+.det-map image{
+  width: 100%;
+  height: 100%;
+}
+.per{
+  width: 96%;
+  margin: auto;
+  height: 200rpx;
+  background-color: #F4F6FA;
+  border-radius: 20rpx;
+  position: relative;
+  margin-bottom: 50rpx;
+  margin-top: 30rpx;
+}
+.per-tou{
+  position: absolute;
+  top: 50rpx;
+  left: 40rpx;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.per-img{
+  position: absolute;
+  top: 36%;
+  right: 40rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+.per-con {
+  position: absolute;
+  top: 60rpx;
+  left: 180rpx;
+  font-size: 28rpx;
+  color: #817376;
+}
+.per-con text{
+  display: block;
+}
+
+.baomin{
+  font-size: 32rpx;
+  background-color: #D73036;
+  width: 100%;
+  height: 80rpx;
+  border-radius: 50rpx;
+  margin-bottom: 50rpx;
+  color: #fff;
+  text-align: center;
+}
+.baomin text{
+  display: block;
+  font-size: 24rpx;
+}
+.agree{
+  font-size: 28rpx;
+  color: #AFA0A0;
+  margin-bottom: 60rpx;
+  text-align: center;
+  position: relative;
+  padding-left: 30rpx;
+}
+.agree text{
+  color: #D73036;
+}
+.agree .agree-no{
+  width: 30rpx;
+  height: 30rpx;
+  background-color: #999;
+  position: absolute;
+  top: 7rpx;
+  left: 100rpx;
+}
+.no{
+  opacity:.9;
+}

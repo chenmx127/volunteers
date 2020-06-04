@@ -11,3 +11,9 @@
     <text class="user-motto">{{motto}}</text>
   </view>
 </view>
+<view>
+<navigator url="../choose/choose" class="cort" >提交</navigator>
+<navigator url="../reads/reads" class="cort" >阅读</navigator>
+<navigator url="../list/list" class="cort" >志愿者</navigator>
+</view>
+

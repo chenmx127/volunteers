@@ -1,0 +1,61 @@
+<!--pages/person1/person1.wxml 编辑个人资料-->
+<view class="person1-head">
+   <image src="../../img/touxiang2.jpg"></image>
+   <text>昵称</text>
+</view>
+<view class="person1-list">
+   <view class="list1">
+      <text class="text">姓</text><text>名：</text>
+      <input type="text" placeholder="请输入姓名"></input>
+      <image src="../../img/jiantou.png"></image>
+   </view>
+   <view class="list1">
+      <text class="text">年</text><text>龄：</text>
+      <input type="number" placeholder="请输入昵称"></input>
+      <image src="../../img/jiantou.png"></image>
+   </view>
+   <view class="list1">
+      <text class="text">性</text><text>别：</text>
+      <input type="text" placeholder="男/女"></input>
+      <image src="../../img/jiantou.png"></image>
+   </view>
+   <view class="list2">
+      <text>身份证号： </text>
+      <input type="idcard" placeholder="请输入身份证号"></input>
+      <image src="../../img/jiantou.png"></image>
+   </view>
+    <view class="list1">
+      <text class="text">学</text><text>校：</text>
+      <input type="text" placeholder="请输入大学名称"></input>
+      <image src="../../img/jiantou.png"></image>
+   </view>
+    <view class="list1">
+      <text class="text">专</text><text>业：</text>
+      <input type="text" placeholder="请输入所在专业"></input>
+      <image src="../../img/jiantou.png"></image>
+   </view>
+    <view class="list1">
+      <text class="text">学</text><text>号：</text>
+      <input type="text" placeholder="请输入学号"></input>
+      <image src="../../img/jiantou.png"></image>
+   </view>
+    <view class="list2">
+      <text>参与社团： </text>
+      <input type="text" placeholder="请输入社团名称"></input>
+      <image src="../../img/jiantou.png"></image>
+   </view>
+    <view class="list2">
+      <text>联系电话： </text>
+      <input type="number" placeholder="请输入联系方式"></input>
+      <image src="../../img/jiantou.png"></image>
+   </view>
+</view>
+<view class="person1-btn">
+    <button plain="true">点击确认</button>
+</view>
+<view class="person1-serves"   hover-class="hoverxz" hover-stay-time="9000">
+    <image class="wxz" src="../../img/weixuanzhong.png"></image>
+    <image class="xz" src="../../img/xuanzhong.png"></image>
+    <text class="ty">我已经阅读并同意</text>
+    <text class="xieyi">《用户服务协议》</text>
+</view>
