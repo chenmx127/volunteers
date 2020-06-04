@@ -1,2 +1,28 @@
 <!--pages/publish/publish.wxml-->
-<text>pages/publish/publish.wxml</text>
+<view class="act_box">
+  <image class="act_img" src="../../img/touxiang2.jpg"></image>
+</view>
+<view class="item_box">
+  <view class="item_active">
+    <text class="jion">正在发布</text>
+  </view>
+  <view class="item_active">
+    <text class="after">过往发布</text>
+  </view>
+</view>
+<view class="line"></view>
+<view wx:for="{{actlist}}" wx:key="index">
+		<template is="actItem" data="{{item}}"/>
+</view>
+<template name="actItem">
+	<view class="act-box">
+		<image class="act-img" src="{{item.img}}"></image>
+		<view class="act-right">
+			<text class="act-title">{{item.title}}</text>
+			<text class="act-address">地点：{{item.address}}</text>
+			<text class="act-hour">时间：{{item.hour}}</text>
+			<text class="act-person">组织者：{{item.person}}</text>
+		</view>
+		<text class="act-seen">查看</text>
+	</view>
+</template>

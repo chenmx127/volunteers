@@ -42,56 +42,50 @@ page{
   background: linear-gradient(to right,#f99,#fff);
   margin-top: 30rpx;
 }
-.detil {
-  width: 700rpx;
+.act-box{
+  width: 100%;
   height: 220rpx;
-  border-radius: 10rpx;
   background-color: #fff;
-  margin: 5rpx auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  border-radius: 20rpx;
+  margin-top: 20rpx;
+  overflow: hidden;
+  padding: 30rpx;
+  box-sizing: border-box;
+  position: relative;
 }
-.detil_img {
-  width: 150rpx;
-  height: 150rpx;
-  border-radius: 5rpx;
+.act-img{
+  width: 160rpx;
+  height: 160rpx;
+  background-color: #f00;
+  border-radius: 20rpx;
+  float: left;
 }
-.detil_text {
-  width: 270rpx;
-  height: 150rpx;
+.act-right{
+  float: left;
+  margin-left: 30rpx;
 }
-.prog {
-  font-size: 30rpx;
-  color: #333;
-  font-weight: 900rpx;
-  margin-bottom: 15rpx;
+.act-right text{
+  display: block;
 }
-.address {
-  font-size: 22rpx;
-  color: #ccc;
-  margin-bottom: 7rpx;
+.act-title{
+  font-size: 34rpx;
+  font-weight: bold;
+  color: #000;
 }
-.time {
-  font-size: 22rpx;
-  color: #ccc;
-  margin-bottom: 7rpx;
-}
-.origan {
-  font-size: 22rpx;
-  color: #ccc;
-  margin-bottom: 7rpx;
-}
-.look_box {
-  width: 130rpx;
-  height: 50rpx;
-  background-color: rgb(245, 87, 87);
-  text-align: center;
-  line-height: 39rpx;
-  border-radius: 30rpx;
-  margin-top: 100rpx;
-}
-.look {
+.act-address,.act-hour,.act-person{
+  color: #6E6E6E;
   font-size: 28rpx;
-  color: #fff;
+}
+.act-address{
+  margin-top: 8rpx;
+}
+.act-seen{
+    position: absolute;
+    bottom:30rpx;
+    right: 30rpx;
+    font-size: 30rpx;
+    color: #f00;
+    border: 2rpx solid #f00;
+    padding: 6rpx 30rpx;
+    border-radius: 50rpx;
 }

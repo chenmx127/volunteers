@@ -11,15 +11,18 @@
   </view>
 </view>
 <view class="line"></view>
-<view class="detil">
-  <image class="detil_img" src="../../img/tu1.png"></image>
-  <view class="detil_text">
-    <view class="prog">为灾区人民募资捐款</view>
-    <view class="address">地点：某某广场</view>
-    <view class="time">时间：2019年3月28日</view>
-    <view class="origan">组织者：志愿者协会</view>
-  </view>
-  <view class="look_box">
-    <text class="look">查看</text> 
-  </view>
+<view wx:for="{{actlist}}" wx:key="index">
+		<template is="actItem" data="{{item}}"/>
 </view>
+<template name="actItem">
+	<view class="act-box">
+		<image class="act-img" src="{{item.img}}"></image>
+		<view class="act-right">
+			<text class="act-title">{{item.title}}</text>
+			<text class="act-address">地点：{{item.address}}</text>
+			<text class="act-hour">时间：{{item.hour}}</text>
+			<text class="act-person">组织者：{{item.person}}</text>
+		</view>
+		<text class="act-seen">查看</text>
+	</view>
+</template>
