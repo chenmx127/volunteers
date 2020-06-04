@@ -3,12 +3,13 @@
     "pages/index/index",
     "pages/index1/index1",
     "pages/actives/actives",
-    "pages/person/person"
+    "pages/person/person",
+    "pages/publish/publish"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#EF4A51",
-    "navigationBarTitleText":"活动资讯",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "活动咨询",
     "navigationBarTextStyle":"black"
   },
   "tabBar": {
