@@ -4,7 +4,8 @@
     "pages/index1/index1",
     "pages/actives/actives",
     "pages/person/person",
-    "pages/publish/publish"
+    "pages/publish/publish",
+    "pages/details/details"
   ],
   "window":{
     "backgroundTextStyle":"light",
