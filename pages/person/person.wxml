@@ -50,7 +50,8 @@
 		<view> <text>意见反馈</text>
 			<image src="../../img/jiantou.png"></image>
 		</view>
-		<view> <text>更多</text>
+		<view> 
+		  <text  class="gengduo">更多</text>
 			<image src="../../img/jiantou.png"></image>
 		</view>
 	</view>

@@ -75,3 +75,6 @@
      width:32rpx;
      height:32rpx;
 }
+.person-menu .gengduo {
+    letter-spacing:70rpx ;
+}
