@@ -4,7 +4,10 @@
     "pages/index1/index1",
     "pages/actives/actives",
     "pages/person/person",
-    "pages/publish/publish"
+    "pages/publish/publish",
+    "pages/choose/choose",
+    "pages/reads/reads",
+    "pages/list/list"
   ],
   "window":{
     "backgroundTextStyle":"light",
