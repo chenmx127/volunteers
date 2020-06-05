@@ -1,11 +1,11 @@
-// pages/choose/choose.js
+// pages/affirm/affirm.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    
+
   },
 
   /**
@@ -62,8 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  jump:function(e) {
-     console.log(e)
   }
 })

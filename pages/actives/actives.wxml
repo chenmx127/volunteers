@@ -1,6 +1,6 @@
 <!--pages/actives/actives.wxml-->
 
-<view class="act_box">
+<view class="act_box"> 
   <image class="act_img" src="../../img/touxiang2.jpg"></image>
 </view>
 <view class="item_box">

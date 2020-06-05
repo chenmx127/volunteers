@@ -11,6 +11,7 @@
     "pages/choose/choose",
     "pages/reads/reads",
     "pages/list/list",
+    "pages/affirm/affirm",
     "pages/call/call",
     "pages/person3/person3"
   ],

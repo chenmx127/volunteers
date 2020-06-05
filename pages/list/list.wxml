@@ -1,3 +1,51 @@
-<view>
-   
+<view class="get_box">
+<view class="list_roll">
+  <view class="hasbuld">
+    <image src="../../img/jiahao.png"></image>
+   <text class="one-nace">志愿者名单1</text>
+  </view>
+  <view class="radio-stop">
+     <view>向天问<text class="gold-call">男</text></view>
+     <view><text space="nbsp">刘   婕</text><text class="gold-call"  space="nbsp">女</text></view>
+      <view>向天问<text class="gold-call">男</text></view>
+      <view>袁丽媛<text class="gold-call">女</text></view>
+     <view>王达一<text class="gold-call">女</text></view>
+      <view>袁丽媛<text class="gold-call">女</text></view> 
+      <view><text space="nbsp">秦   歌</text><text class="gold-call">女</text></view>
+     <view>王启年<text class="gold-call">女</text></view>
+      <view><text space="nbsp">秦   歌</text><text class="gold-call">女</text></view>
+       <view>陈阿九<text class="gold-call">男</text></view>
+     <view>齐凤玉<text class="gold-call">女</text></view>
+      <view>陈阿九<text class="gold-call">男</text></view>
+      <view><text space="nbsp">刘   云</text><text class="gold-call">男</text></view>
+     <view>刘云利<text class="gold-call">女</text></view>
+      <view><text space="nbsp">刘    云</text><text class="gold-call" space="nbsp">女</text></view>
+  </view> 
+</view>
+ <view class="list_rolls">
+  <view class="hasbuld">
+    <image src="../../img/jiahao.png"></image>
+   <text class="one-nace">志愿者名单2</text>
+  </view>
+  <view class="radio-stop">
+     <view>向天问<text class="gold-call">男</text></view>
+     <view><text space="nbsp">刘   婕</text><text class="gold-call"  space="nbsp">女</text></view>
+      <view>向天问<text class="gold-call">男</text></view>
+      <view>袁丽媛<text class="gold-call">女</text></view>
+     <view>王达一<text class="gold-call">女</text></view>
+      <view>袁丽媛<text class="gold-call">女</text></view> 
+      <view><text space="nbsp">秦   歌</text><text class="gold-call">女</text></view>
+     <view>王启年<text class="gold-call">女</text></view>
+      <view><text space="nbsp">秦   歌</text><text class="gold-call">女</text></view>
+       <view>陈阿九<text class="gold-call">男</text></view>
+     <view>齐凤玉<text class="gold-call">女</text></view>
+      <view>陈阿九<text class="gold-call">男</text></view>
+      <view><text space="nbsp">刘   云</text><text class="gold-call">男</text></view>
+     <view>刘云利<text class="gold-call">女</text></view>
+      <view><text space="nbsp">刘    云</text><text class="gold-call" space="nbsp">女</text></view>
+  </view> 
+</view>
+ <navigator url="../affirm/affirm" class="countersign">
+    <text>确认添加</text>
+ </navigator>
 </view>

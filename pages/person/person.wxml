@@ -18,24 +18,24 @@
 	</navigator>
 
 	<view class="active-list">
-		<view>
+		<navigator url="../choose/choose">
 			<image src="../../img/ybm.png"></image>
 			<view class="">已报名</view>
-		</view>
+		</navigator>
 		<view>
 			<image src="../../img/ycj.png"></image>
 			<view>已参加</view>
 		</view>
-		<view>
+		<navigator url="../person2/person2">
 			<image src="../../img/ywc.png"></image>
 			<view>已完成</view>
-		</view>
+		</navigator>
 	</view>
 </view>
 <view class="person-menus">
 	<!-- 个人中心的下部的列表 -->
 	<view class="person-menu">
-		<view> <navigator url="../person2/person2"><text>我的资料</text></navigator>   	<!-- 跳转到志愿者资料 -->
+		<view><text>我的资料</text>	
 		<navigator url="../person1/person1"><image src="../../img/jiantou.png"></image></navigator>   <!-- 跳转到编辑个人资料的页面 后面重新更换接口-->
 		</view>
 		<view> <text>政策法规</text>

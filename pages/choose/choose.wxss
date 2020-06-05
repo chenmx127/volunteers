@@ -22,13 +22,17 @@
 .client-side {
     width: 460rpx;
     height: 90rpx;
-    color: #fff;
+    color: #82020B;
     margin:0 auto;
     text-align: center;
     border-radius: 60rpx;
-    background: linear-gradient(to right,#EF8A8E,#F8CCCE)
+    background: #ECEEF1;
    
   }
+.client-side:hover {
+  background: linear-gradient(to right,#EF8A8E,#F8CCCE);
+  color: #fff;
+}
 .civit,.item-vit,.president {
   font-weight: 700;
    font-size: 34rpx;
@@ -51,6 +55,14 @@
   border-radius: 60rpx;
   margin:0 auto;
   background-color: #ECEEF1;
+}
+.cuntion:hover {
+  background: linear-gradient(to right,#EF8A8E,#F8CCCE);
+  color: #fff;
+}
+.new-what:hover {
+  background: linear-gradient(to right,#EF8A8E,#F8CCCE);
+  color: #fff;
 }
 .cuntion image {
   width: 90rpx;

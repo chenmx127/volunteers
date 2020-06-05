@@ -1,0 +1,36 @@
+<!--pages/affirm/affirm.wxml-->
+<view class="page_box">
+	<view class="aff_top">
+		<view class="aff_upside_box">
+			<image class="aff_upside_left" src="../../img/jiao1.png"></image>
+			<image class="aff_upside_right" src="../../img/jiao2.png"></image>
+		</view>
+		<view class="aff_pho">
+			<image class="aff_pic" src="../../img/camera.png"></image>
+			<text>请拍摄一段开场白视频</text>
+			<text>用于介绍本次随访</text>
+		</view>
+		<view class="aff_downside_box">
+			<image class="aff_downside_left" src="../../img/jiao3.png"></image>
+			<image class="aff_downside_right" src="../../img/jiao4.png"></image>
+		</view>
+	</view>
+	<view class="aff_content">
+		<textarea>请填写随访的标题</textarea>
+	</view>
+	<view class="aff_give">
+		<text>发布给：</text>
+		<input placeholder="选择我的队员" placeholder-style="font-size: 28rpx;"></input>
+		<image src="../../img/jiantou.png"></image>
+	</view>
+	<navigator url="../list/list" class="aff_list">
+		<image src="../../img/jiahao.png"></image>
+		<view class="aff_setor">
+			<text>参与活动志愿者名单</text>
+			<image src="../../img/jiantou.png"></image>
+		</view>
+	</navigator>
+	<navigator url="../publish/publish" class="aff-btn">
+		<button plain="true">确认发布</button>
+	</navigator>
+</view>
