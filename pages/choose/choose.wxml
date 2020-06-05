@@ -5,15 +5,15 @@
 </view>
 </view>
 <view class="conslon-box">
- <view class="client-side">  
+ <view class="client-side"   bindtap="jump">  
    <image src="../../img/kehu.png"></image>
     <text class="civit">我 是 客 户</text>
   </view>
-  <view class="cuntion" bindtap="cunclick">
+  <view class="cuntion"  bindtap="jump">
    <image src="../../img/xxs.png"></image>
     <text class="item-vit">志 愿 者 们</text>
   </view>
-  <view class="new-what">
+  <view class="new-what"   bindtap="jump">
    <image src="../../img/jl.png"></image>
     <text class="president">社 团 团 长</text>
   </view>
