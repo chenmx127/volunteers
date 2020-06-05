@@ -11,7 +11,8 @@
     "pages/details/details",
     "pages/choose/choose",
     "pages/reads/reads",
-    "pages/list/list"
+    "pages/list/list",
+    "pages/affirm/affirm"
   ],
   "window":{
     "backgroundTextStyle":"light",

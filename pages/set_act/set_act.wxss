@@ -13,6 +13,7 @@ page{
   background-color: #fff;
   border-radius: 20rpx;
   margin: auto;
+  padding: 10rpx;
 }
 .act_name text {
   width: 150rpx;
@@ -29,13 +30,13 @@ page{
   margin-top: 40rpx;
 }
 .act_time text {
-  font-size: 36rpx;
+  font-size: 32rpx;
   color: #333;
 }
 #input_time {
   width: 450rpx;
   height: 60rpx;
-  background-color: #aaa;
+  background-color: #ECEEF1;
   border-radius: 8rpx;
 }
 .act_long_time {
@@ -44,22 +45,29 @@ page{
   margin-top: 30rpx;
 }
 .act_long_time text {
-  font-size: 36rpx;
+  font-size: 32rpx;
   color: #333;
 }
 .input_long_time {
   width: 450rpx;
   height: 60rpx;
-  background-color: #aaa;
+  background-color:#ECEEF1;
   border-radius: 8rpx;
 }
 .act_sex {
   display: flex;
-  justify-content: space-around;
-  margin-top: 30rpx;
+  justify-content: space-between;
+  margin: 30rpx 8rpx 0 20rpx;
+}
+.act_sex .radio {
+  font-size: 30rpx;
+  margin-right: 46rpx;
+}
+.act_sex radio{
+  transform: scale(.7);
 }
 .act_sex text {
-  font-size: 36rpx;
+  font-size: 32rpx;
   color: #333;
 }
 .act_person {
@@ -68,29 +76,37 @@ page{
   margin-top: 30rpx;
 }
 .act_person text {
-  font-size: 36rpx;
+  font-size: 32rpx;
   color: #333;
 }
 .input_person {
   width: 450rpx;
   height: 60rpx;
   border-radius: 8rpx;
-  background-color: #aaa;
+  background-color:#ECEEF1;
 }
 .act_address {
   display: flex;
   justify-content: space-around;
   margin-top: 30rpx;
+  position: relative;
 }
 .act_address text {
-  font-size: 36rpx;
+  font-size: 32rpx;
   color: #333;
 }
 .input_address {
   width: 450rpx;
   height: 60rpx;
   border-radius: 8rpx;
-  background-color: #aaa;
+  background-color:#ECEEF1;
+}
+.act_address image {
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  top: 5rpx;
+  right: 25rpx;
 }
 .act_intro {
   width: 90%;
@@ -98,6 +114,7 @@ page{
   background-color: #fff;
   margin: 20rpx auto;
   border-radius: 20rpx;
+  padding: 10rpx;
 }
 .act_itdt {
   font-size: 36rpx;
@@ -120,6 +137,7 @@ textarea {
   background-color: #fff;
   margin: 20rpx auto;
   border-radius: 20rpx;
+  padding: 10rpx;
 }
 .act_pho {
   font-size: 36rpx;

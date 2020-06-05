@@ -11,7 +11,7 @@
   </view>
 </view>
 <view class="line"></view>
-<view wx:for="{{actlist}}" wx:key="index">
+<view wx:for="{{actlist}}" wx:key="index" wx:if="{{name==0}}">
 		<template is="actItem" data="{{item}}"/>
 </view>
 <template name="actItem">

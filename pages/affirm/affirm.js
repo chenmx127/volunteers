@@ -1,8 +1,6 @@
-// pages/choose/choose.js
+// pages/affirm/affirm.js
 Page({
-  bindtap:function(e) {
-    console.log(e)
-  },
+
   /**
    * 页面的初始数据
    */
