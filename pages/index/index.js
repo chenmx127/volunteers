@@ -8,9 +8,9 @@ Page({
   data: {
     background: ["../../img/banner1.jpg","../../img/banner2.jpg","../../img/banner3.jpg"],
     imglist:[
-      {path:"../../img/cyhd.png",value:"参与活动"},
-      {path:"../../img/hdzm.png",value:"活动招募"},
-      {path:"../../img/zcfg.png",value:"政策法规"}],
+      {path:"../../img/cyhd.png",value:"参与活动",navp:"../call/call"},
+      {path:"../../img/hdzm.png",value:"活动招募",navp:"../set_act/set_act"},
+      {path:"../../img/zcfg.png",value:"政策法规",navp:"../reads/reads"}],
     contentlist:[
       {tit_img:"../../img/jr.png",title:"参与活动",id:0},
       {tit_img:"../../img/hd.png",title:"活动招募",id:1},

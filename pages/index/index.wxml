@@ -1,20 +1,4 @@
 <!--pages/index1/index1.wxml-->
-
-<view>
-	<navigator url="../publish/publish">跳转发布</navigator>
-</view>
-<view>
-	<navigator url="../call/call">跳转资讯</navigator>
-</view>
-<view>
-	<navigator url="../choose/choose">跳转提交</navigator>
-</view>
-<view>
-	<navigator url="../reads/reads">跳转阅读</navigator>
-</view>
-<view>
-	<navigator url="../list/list">跳转志愿者</navigator>
-</view>
 <view class="page-body">
 	<view class="page-section page-section-spacing swiper">
 		<swiper indicator-dots="true" autoplay="true" interval="2000" duration="500">
@@ -28,8 +12,10 @@
 </view>
 <view class="sort-con">
 	<view class="sort-b" wx:for="{{imglist}}" wx:key="index">
-		<image class="sort-img" src="{{item.path}}"></image>
-		<text class="sort-text">{{item.value}}</text>
+		<navigator url="{{item.navp}}">
+			<image class="sort-img" src="{{item.path}}"></image>
+			<text class="sort-text">{{item.value}}</text>
+		</navigator>
 	</view>
 </view>
 <view class="content" wx:for="{{contentlist}}" wx:key="index">
@@ -38,10 +24,10 @@
 		<text class="most">查看更多></text>
 	</view>
 	<view data="{{item.id == 0}}" wx:for="{{canjia}}" wx:key="index">
-		<template is="canItem" data="{{item}}"/>
+		<template is="canItem" data="{{item}}" />
 	</view>
 	<view data="{{item.id == 1}}" wx:for="{{zhao}}" wx:key="index">
-		<template is="canItem" data="{{item}}"/>
+		<template is="canItem" data="{{item}}" />
 	</view>
 </view>
 

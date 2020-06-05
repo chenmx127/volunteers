@@ -23,14 +23,14 @@
 		<input placeholder="选择我的队员" placeholder-style="font-size: 28rpx;"></input>
 		<image src="../../img/jiantou.png"></image>
 	</view>
-	<view class="aff_list">
+	<navigator url="../list/list" class="aff_list">
 		<image src="../../img/jiahao.png"></image>
 		<view class="aff_setor">
 			<text>参与活动志愿者名单</text>
 			<image src="../../img/jiantou.png"></image>
 		</view>
-	</view>
-	<navigator url="../set_act/set_act" class="aff-btn">
+	</navigator>
+	<navigator url="../publish/publish" class="aff-btn">
 		<button plain="true">确认发布</button>
 	</navigator>
 </view>

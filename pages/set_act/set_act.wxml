@@ -8,19 +8,21 @@
 			<view class="act_sex">
 				<text>性别</text>
 				<radio-group>
-				<label class="radio" bindchange="radiochange">
-					<radio value="r1" checked="true" color="#f99" />男
-				</label>
-				<label class="radio">
-					<radio value="r2" color="#f99" />女
-				</label>
-				<label class="radio">
-					<radio value="r3" color="#f99"  />不限
-				</label>
+					<label class="radio" bindchange="radiochange">
+						<radio value="r1" checked="true" color="#f99" />男
+					</label>
+					<label class="radio">
+						<radio value="r2" color="#f99" />女
+					</label>
+					<label class="radio">
+						<radio value="r3" color="#f99" />不限
+					</label>
 				</radio-group>
 			</view>
 			<view class="act_person"><text>需求人数</text><input class="input_person"></input></view>
-			<view class="act_address"><text>地址</text><input class="input_address"></input><image src="../../img/map.png"></image></view>
+			<view class="act_address"><text>地址</text><input class="input_address"></input>
+				<image src="../../img/map.png"></image>
+			</view>
 		</view>
 		<view class="act_intro">
 			<view class="act_itdt">活动介绍</view>
@@ -33,5 +35,8 @@
       <text>活动图片</text>
       </view>
     </view>
+		<navigator url="../affirm/affirm" class="aff-btn">
+			<button plain="true">下一页</button>
+		</navigator>
 	</block>
 </view>

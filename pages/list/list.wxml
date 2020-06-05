@@ -45,7 +45,7 @@
       <view><text space="nbsp">刘    云</text><text class="gold-call" space="nbsp">女</text></view>
   </view> 
 </view>
- <view class="countersign">
+ <navigator url="../affirm/affirm" class="countersign">
     <text>确认添加</text>
- </view>
+ </navigator>
 </view>
