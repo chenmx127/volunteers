@@ -1,8 +1,8 @@
 <!--pages/publish/publish.wxml-->
 
-<view class="act_box">
+<navigator url="../set_act/set_act" class="act_box">
 	<image class="act_img" src="../../img/touxiang2.jpg"></image>
-</view>
+</navigator>
 <view class="item_box">
 	<view class="item_active">
 		<text class="jion" bindtap="jump" data-id="0">正在发布</text>
