@@ -1,33 +1,18 @@
-// pages/index1/index1.js
-let shouye = require('../../utils/api.js'); 
+// pages/call/call.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    background: ["../../img/banner1.jpg","../../img/banner2.jpg","../../img/banner3.jpg"],
-    imglist:[
-      {path:"../../img/cyhd.png",value:"参与活动"},
-      {path:"../../img/hdzm.png",value:"活动招募"},
-      {path:"../../img/zcfg.png",value:"政策法规"}],
-    contentlist:[
-      {tit_img:"../../img/jr.png",title:"参与活动"},
-      {tit_img:"../../img/hd.png",title:"活动招募"},
-      {tit_img:"../../img/zc.png",title:"政策法规"}],
-    actList:[]
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad(options) {
-    shouye.TEER('/volunteer/website/huodongList','GET',{},res=>{
-      console.log(res)
-      this.setData({
-        actList:res.data.data.list
-      })
-    })
+  onLoad: function (options) {
+
   },
 
   /**

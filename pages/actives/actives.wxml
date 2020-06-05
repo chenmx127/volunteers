@@ -11,33 +11,21 @@
     <text class="after" bindtap="jump" data-id="1">过往活动</text>
   </view>
 </view>
-<view class="line"></view>
-<view wx:for="{{actlist}}" wx:key="index" wx:if="{{name==0}}">
-		<template is="actItem" data="{{item}}"/>
-</view>
-<view wx:for="{{afterlist}}" wx:key="index" wx:if="{{name==1}}">
-		<template is="afterItem" data="{{item}}"/>
-</view>
-<template name="actItem" >
-	<view class="act-box">
-		<image class="act-img" src="{{item.img}}"></image>
-		<view class="act-right">
-			<text class="act-title">{{item.title}}</text>
-			<text class="act-address">地点：{{item.address}}</text>
-			<text class="act-hour">时间：{{item.hour}}</text>
-			<text class="act-person">组织者：{{item.person}}</text>
-		</view>
-		<navigator class="act-seen" url="../publish/publish">查看</navigator>
+<import src="../index1/index1" />
+<view class="line-xian">
+	<view class="line" data="name">
+		<image src="../../img/tiao.png"></image>
 	</view>
-</template>
-<template name="afterItem" >
-	<view class="act-box">
-		<image class="act-img" src="{{item.img}}"></image>
-		<view class="act-right">
-			<text class="act-title">{{item.title}}</text>
-			<text class="act-address">地点：{{item.address}}</text>
-			<text class="act-hour">时间：{{item.createDate}}</text>
-		</view>
-		<navigator class="act-seen" url="../publish/publish">查看</navigator>
+	<view class="line line-fan" wx:if="{{name == 1}}">
+		<image src="../../img/tiaofan.png"></image>
 	</view>
-</template>
+</view>
+
+<view wx:for="{{afterlist}}" wx:key="index">
+	<view data="bmcount name" wx:if="{{item.bmcount== 0 && name==0}}" class="act_item">
+		<template is="actItem" data="{{item}}" />
+	</view>
+	<view wx:elif="{{item.bmcount== 1 && name==1}}" class="act_item">
+		<template is="actItem" data="{{item}}" />
+	</view>
+</view>

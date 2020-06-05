@@ -1,4 +1,8 @@
 <!--pages/index1/index1.wxml-->
+
+<view>
+	<navigator url="../publish/publish">跳转发布</navigator>
+</view>
 <view class="page-body">
 	<view class="page-section page-section-spacing swiper">
 		<swiper indicator-dots="true" autoplay="true" interval="2000" duration="500">
@@ -25,9 +29,7 @@
 		<template is="actItem" data="{{item}}"/>
 	</view>
 </view>
-<view>
-	<navigator url="../details/details">跳转详情</navigator>
-</view>
+
 
 <template name="actItem">
 	<view class="act-box">
@@ -38,7 +40,7 @@
 			<text class="act-hour">时间：{{item.date}}</text>
 			<text class="act-person">组织者：志愿者协会</text>
 		</view>
-		<text class="act-seen">查看</text>
+		<navigator url="../details/details?id={{item.id}}" class="act-seen">查看</navigator>
 	</view>
 	
 </template>

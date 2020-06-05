@@ -1,8 +1,5 @@
 // pages/choose/choose.js
 Page({
-  bindtap:function(e) {
-    console.log(e)
-  }
   /**
    * 页面的初始数据
    */
