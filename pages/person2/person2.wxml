@@ -1,10 +1,71 @@
 <!--pages/person2/person2.wxml-->
 <view class="person2-head">
-  <view class="top">
-      <view class="left">
-          <text class="vlter-1">志愿者</text>
-          <view> <image src="../../img/xingji.png"></image> <text class="vlter-2">星际志愿者</text></view>
+	<!-- 志愿者详情页面上部  -->
+	<view class="top">
+		<!-- 志愿者详情顶部  -->
+		<view class="left">
+			<!-- 左上角的志愿者字样  -->
+			<text class="vlter-1">志愿者</text>
+			<view>
+				<image src="../../img/xingji.png"></image> <text class="vlter-2">星际志愿者</text>
+			</view>
+		</view>
+		<image class="p2-touxiang" src="../../img/touxiang2.jpg"></image> <!--  头像  -->
+	</view>
+	<view class="bottom">
+		<!--下部 提示框  -->
+		<view class="btm-tsk">
+			<!-- 提示框  -->
+			<text class="btm-txt">30</text>
+			<image src="../../img/tishi.png"></image>
+		</view>
+		<view class="jdt">
+			<view></view>
+		</view> <!--  进度条  -->
+		<view class="zhushi">
+			<text>0 志愿者</text>
+			<text>星际志愿者 100</text>
+		</view>
+	</view>
+</view>
+<view class="person2-hengtiao"></view><!-- 中间分割线 -->
+<view class="person2-byhead">  <!-- 主内容头部 -->
+   <image src="../../img/lingdang.png"></image>
+   <text class="title">献爱心时间</text>
+   <text class="lately">（最近20条）：</text>
+</view><text></text>
+<view class="person2-by">
+   <view>
+      <view>
+            <text >帮助孤寡老人打扫（志愿者协会承办）</text><text class="date">2020-3-20</text>
       </view>
-      <image class="p2-touxiang" src="../../img/touxiang2.jpg"></image>
-  </view>
+      <text>地点：某某广场</text>
+      <text>时长：2:3:00</text>   
+      <text>+5</text>
+   </view>
+   <view>
+      <view>
+            <text >帮助孤寡老人打扫（志愿者协会承办）</text><text class="date">2020-3-20</text>
+      </view>
+      <text>地点：某某广场</text>
+      <text>时长：2:3:00</text>   
+      <text>+5</text>
+   </view>
+   <view>
+      <view>
+            <text >帮助孤寡老人打扫（志愿者协会承办）</text><text class="date">2020-3-20</text>
+      </view>
+      <text>地点：某某广场</text>
+      <text>时长：2:3:00</text>   
+      <text>+5</text>
+   </view>
+   <view>
+      <view>
+            <text >帮助孤寡老人打扫（志愿者协会承办）</text><text class="date">2020-3-20</text>
+      </view>
+      <text>地点：某某广场</text>
+      <text>时长：2:3:00</text>   
+      <text>+5</text>
+   </view>
+
 </view>

@@ -1,16 +1,20 @@
 /* pages/person2/person2.wxss */
-.person2-head{
-  width:90%;
-  margin:0 auto;
+.person2-head {
+  width: 90%;
+  margin: 0 auto;
 }
-.person2-head .top .left .vlter-1{
+
+.person2-head .top .left .vlter-1 {
   font-size: 55rpx;
 }
-.person2-head .top .left .vlter-2{
+
+.person2-head .top .left .vlter-2 {
   font-size: 30rpx;
+  color: white;
 }
-.person2-head .top .left view{
-  background-color: pink;
+
+.person2-head .top .left view {
+  background-color: #AFA0A0;
   width: 200rpx;
   display: flex;
   justify-content: space-around;
@@ -19,17 +23,126 @@
   align-items: center;
   margin-top: 20rpx;
 }
-.person2-head .top .left view image{
+
+.person2-head .top .left view image {
   width: 40rpx;
   height: 50rpx;
 
 }
-.person2-head .top{
+
+.person2-head .top {
   display: flex;
   justify-content: space-between;
 }
-.person2-head .top .p2-touxiang{
-  width:150rpx;
-  height:150rpx;
+
+.person2-head .top .p2-touxiang {
+  width: 150rpx;
+  height: 150rpx;
   border-radius: 50%;
 }
+
+.person2-head .bottom image {
+  width: 80rpx;
+  height: 50rpx;
+}
+
+.person2-head .bottom .btm-tsk {
+  /* 志愿者进度提示框位置 */
+  margin-left: 230rpx;
+}
+
+.person2-head .bottom .btm-txt {
+  position: relative;
+  top: -14rpx;
+  left: 54rpx;
+  font-size: 31rpx;
+  color: white;
+}
+
+.person2-head .jdt view {
+  width: 45%;
+  height: 100%;
+  background-color: #FE4A5D;
+  border-radius: 50rpx;
+}
+
+.person2-head .jdt {
+  border: 1rpx solid #FE4A5D;
+  border-radius: 50rpx;
+  width: 100%;
+  height: 25rpx;
+}
+
+.person2-head .zhushi {
+  display: flex;
+  justify-content: space-between;
+}
+
+.person2-head .zhushi text {
+  word-spacing: 1rpx;
+  font-size: 30rpx;
+
+}
+
+.person2-hengtiao {
+  height: 20rpx;
+  background-color: #F7F7F7;
+  margin-top: 50rpx;
+
+}
+
+.person2-byhead {
+  padding: 50rpx 0rpx;
+  display: flex;
+  margin-left: 20rpx;
+  align-items: center;
+}
+
+.person2-byhead image {
+  width: 40rpx;
+  height: 40rpx;
+  padding-right: 30rpx;
+}
+.person2-byhead .title {
+  font-size: 40rpx;
+
+}
+.person2-byhead .lately {
+  font-size: 30rpx;
+  color: #B6A8AB;
+}
+.person2-by > view{
+     border-bottom:1rpx solid #E6E6E6;
+}
+.person2-by view view{
+  display: flex;
+  justify-content: space-between;
+  font-size:35rpx;
+  line-height: 50rpx;
+  margin-bottom: 8rpx;
+
+}
+.person2-by view view text:nth-child(1){
+  font-size: 33rpx;
+  line-height: 50rpx;
+}
+.person2-by view view text:nth-child(2),.person2-by view text:nth-child(2), .person2-by view text:nth-child(3){
+  font-size:28rpx;
+  color:#B1A3A3;
+}
+.person2-by > view {
+  border-bottom: 1rpx solid #E6E6E6;
+  margin: 0rpx 30rpx 30rpx;
+  padding-bottom: 30rpx;
+
+}
+.person2-by view text:nth-child(4){
+  position: absolute;
+  right: 36rpx;
+  font-size: 29rpx;
+  color: #FE4A5D;
+}
+
+
+
+
