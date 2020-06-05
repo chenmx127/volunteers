@@ -1,2 +1,31 @@
 <!--pages/call/call.wxml-->
-<text>pages/call/call.wxml</text>
+<view class="pages-body">
+	<view class="zixun">
+		<view class="zixun-top">
+			<image src="../../img/touxiang.jpg"></image>
+			<text class="top-tit">帮助孤寡老人</text>
+			<text class="top-span">救济帮扶组织</text>
+		</view>
+		<view class="zixun-bom">
+			<text class="zixun-con">显示发给相关的工程公司收购德国公车改革说不定说的话时间多久啊是</text>
+			<text class="zi-time">45分钟前</text>
+		</view>
+		<view class="dianji">
+			<image src="../../img/djjr.png"></image>
+		</view>
+	</view>
+  <view class="zixun">
+		<view class="zixun-top">
+			<image src="../../img/touxiang.jpg"></image>
+			<text class="top-tit">帮助孤寡老人</text>
+			<text class="top-span">救济帮扶组织</text>
+		</view>
+		<view class="zixun-bom">
+			<text class="zixun-con">显示发给相关的工程公司收购德国公车改革说不定说的话时间多久啊是</text>
+			<text class="zi-time">45分钟前</text>
+		</view>
+		<view class="dianji">
+			<image src="../../img/djjr.png"></image>
+		</view>
+	</view>
+</view>
