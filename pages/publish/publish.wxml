@@ -11,7 +11,7 @@
 		<text class="after" bindtap="jump" data-id="1">过往发布</text>
 	</view>
 </view>
-<import src="../index1/index1" />
+<import src="../index/index" />
 <view class="line-xian">
 	<view class="line" data="name">
 		<image src="../../img/tiao.png"></image>

@@ -1,7 +1,6 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/index1/index1",
     "pages/actives/actives",
     "pages/person/person",
     "pages/publish/publish",
@@ -18,7 +17,7 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "活动咨询",
+    "navigationBarTitleText": "",
     "navigationBarTextStyle":"black"
   },
   "tabBar": {
@@ -29,12 +28,6 @@
         "iconPath":"/img/shou.png",
         "selectedIconPath":"/img/shou-b.png",
         "pagePath": "pages/index/index",
-        "text": "首页1"
-      },
-      {
-        "iconPath":"/img/shou.png",
-        "selectedIconPath":"/img/shou-b.png",
-        "pagePath": "pages/index1/index1",
         "text": "首页"
       },
       {
