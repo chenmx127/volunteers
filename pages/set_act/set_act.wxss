@@ -1,0 +1,150 @@
+/* pages/set_act/set_act.wxss */
+page{
+  background-color: #eee;
+}
+.content {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+.act_name {
+  width: 90%;
+  height: 550rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+  margin: auto;
+}
+.act_name text {
+  width: 150rpx;
+}
+.act_title {
+  width: 230rpx;
+  height: 50rpx;
+  border-bottom: 1rpx solid #000;
+  margin: 30rpx auto 0 auto;
+}
+.act_time {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40rpx;
+}
+.act_time text {
+  font-size: 36rpx;
+  color: #333;
+}
+#input_time {
+  width: 450rpx;
+  height: 60rpx;
+  background-color: #aaa;
+  border-radius: 8rpx;
+}
+.act_long_time {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30rpx;
+}
+.act_long_time text {
+  font-size: 36rpx;
+  color: #333;
+}
+.input_long_time {
+  width: 450rpx;
+  height: 60rpx;
+  background-color: #aaa;
+  border-radius: 8rpx;
+}
+.act_sex {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30rpx;
+}
+.act_sex text {
+  font-size: 36rpx;
+  color: #333;
+}
+.act_person {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30rpx;
+}
+.act_person text {
+  font-size: 36rpx;
+  color: #333;
+}
+.input_person {
+  width: 450rpx;
+  height: 60rpx;
+  border-radius: 8rpx;
+  background-color: #aaa;
+}
+.act_address {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30rpx;
+}
+.act_address text {
+  font-size: 36rpx;
+  color: #333;
+}
+.input_address {
+  width: 450rpx;
+  height: 60rpx;
+  border-radius: 8rpx;
+  background-color: #aaa;
+}
+.act_intro {
+  width: 90%;
+  height: 200rpx;
+  background-color: #fff;
+  margin: 20rpx auto;
+  border-radius: 20rpx;
+}
+.act_itdt {
+  font-size: 36rpx;
+  color: #000;
+  text-align: center;
+  margin: 10rpx auto;
+}
+textarea {
+  cursor: auto;
+  width: 90%;
+  height: 150rpx;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+}
+.act_pic {
+  width: 90%;
+  height: 250rpx;
+  background-color: #fff;
+  margin: 20rpx auto;
+  border-radius: 20rpx;
+}
+.act_pho {
+  font-size: 36rpx;
+  color: #000;
+  text-align: center;
+  margin: 10rpx auto;
+}
+.act_xj {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 20rpx;
+  background-color: #eee;
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.act_xj image {
+  width: 90rpx;
+  height: 90rpx;
+}
+.act_xj text {
+  font-size: 30rpx;
+  color: #ccc;
+  margin-top: -50rpx;
+}

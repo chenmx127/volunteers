@@ -1,4 +1,5 @@
 // pages/actives/actives.js
+let actJs=require('../../utils/api.js')
 Page({
 
   /**
@@ -8,14 +9,28 @@ Page({
     actlist:[
       {img:"../../img/tu1.png",title:"为灾区人民模子捐款",address:"某某广场",hour:"2019年3月28日",person:"志愿者协会"},
       {img:"../../img/tupian.png",title:"为孤寡老人送爱心午餐",address:"某某广场",hour:"2019年3月28日",person:"志愿者协会"},
-      {img:"../../img/tu1.png",title:"为灾区人民模子捐款",address:"某某广场",hour:"2019年3月28日",person:"志愿者协会"}]
+      {img:"../../img/tu1.png",title:"为灾区人民模子捐款",address:"某某广场",hour:"2019年3月28日",person:"志愿者协会"}
+    ],
+    afterlist:[]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-
+  onLoad(options) {
+    actJs.TEER('/volunteer/website/huodongList','GET',{},res=>{
+      console.log(res);
+      this.setData({
+        afterlist:res.data.data.list,
+        
+      })
+    })
+  },
+  jump(e){
+    console.log(e);
+    this.setData({
+      name:e.currentTarget.dataset.id
+    })
   },
 
   /**
