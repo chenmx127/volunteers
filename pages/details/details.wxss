@@ -173,17 +173,28 @@
   position: relative;
   padding-left: 30rpx;
 }
+
 .agree text{
   color: #D73036;
 }
-.agree .agree-no{
-  width: 30rpx;
-  height: 30rpx;
-  background-color: #999;
+.agree image{
+  width:30rpx;
+  height:30rpx;
+}
+.wxz{
   position: absolute;
-  top: 7rpx;
+  top: 5rpx;
   left: 100rpx;
 }
-.no{
-  opacity:.9;
+.xz{
+  display: none;
+  position: absolute;
+  top: 5rpx;
+  left: 100rpx;
+  }
+.hoverxz .xz{
+  display:block;
+}
+.hoverxz .wxz{
+  display:none;
 }

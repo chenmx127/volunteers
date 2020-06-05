@@ -6,10 +6,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-    actlist:[
-      {img:"../../img/tu1.png",title:"为灾区人民模子捐款",address:"某某广场",hour:"2019年3月28日",person:"志愿者协会"},
-      {img:"../../img/tupian.png",title:"为孤寡老人送爱心午餐",address:"某某广场",hour:"2019年3月28日",person:"志愿者协会"},
-      {img:"../../img/tu1.png",title:"为灾区人民模子捐款",address:"某某广场",hour:"2019年3月28日",person:"志愿者协会"}]
+    afterlist:[],
+    bmcount:0,
+    name:0
   },
 
   /**
@@ -19,14 +18,15 @@ Page({
     actPub.TEER('/volunteer/website/huodongList','GET',{},res=>{
       console.log(res);
       this.setData({
-        yy:res.data.data.list.bmcount
+        afterlist:res.data.data.list
       })
     })
   },
   jump(e){
-    console.log(e);
-    let name=e.currentTarget.dataset.id;
-    console.log(name);
+    // console.log(e);
+    this.setData({
+      name:e.currentTarget.dataset.id
+    })
   },
 
   /**

@@ -39,6 +39,7 @@
   width:600rpx;
   margin:40rpx auto;
   text-align: center;
+  
   background-color: #F77079;
   border-radius: 50rpx;
 }
@@ -47,9 +48,11 @@
   font-weight: 400; 
   line-height: 45rpx;
   border:none;
+  color: #fff;
 }
 .person1-serves{
-  margin:0rpx 0rpx 50rpx;
+  margin-bottom: 50rpx;
+  padding-left: 30rpx;
   text-align: center;
   position: relative;
 }
@@ -57,11 +60,16 @@
    width:30rpx;
    height:30rpx;
 }
+.wxz{
+  position: absolute;
+  top: 15rpx;
+  left: 140rpx;
+}
 .xz{
   display: none;
   position: absolute;
   top: 15rpx;
-  left: 125rpx;
+  left: 140rpx;
   }
 .hoverxz .xz{
   display:block;

@@ -1,7 +1,7 @@
 {
   "usingComponents": {},
   "backgroundTextStyle":"light",
-  "navigationBarBackgroundColor": "#F4F6FA",
-  "navigationBarTitleText":"活动资讯",
+  "navigationBarBackgroundColor": "#eee",
+  "navigationBarTitleText": "名单填写",
   "navigationBarTextStyle":"black"
 }

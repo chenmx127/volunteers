@@ -1,32 +1,18 @@
-// pages/actives/actives.js
-let actJs=require('../../utils/api.js')
+// pages/affirm/affirm.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    afterlist:[],
-    bmcount:0,
-    name:0
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad(options) {
-    actJs.TEER('/volunteer/website/huodongList','GET',{},res=>{
-      // console.log(res);
-      this.setData({
-        afterlist:res.data.data.list
-      })
-    })
-  },
-  jump(e){
-    // console.log(e);
-    this.setData({
-      name:e.currentTarget.dataset.id
-    })
+  onLoad: function (options) {
+
   },
 
   /**
