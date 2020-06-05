@@ -1,19 +1,72 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+<!--pages/index1/index1.wxml-->
+
+<view>
+	<navigator url="../publish/publish">跳转发布</navigator>
 </view>
 <view>
-<navigator url="../choose/choose" class="cort" >提交</navigator>
-<navigator url="../reads/reads" class="cort" >阅读</navigator>
-<navigator url="../list/list" class="cort" >志愿者</navigator>
+	<navigator url="../call/call">跳转资讯</navigator>
+</view>
+<view>
+	<navigator url="../choose/choose">跳转提交</navigator>
+</view>
+<view>
+	<navigator url="../reads/reads">跳转阅读</navigator>
+</view>
+<view>
+	<navigator url="../list/list">跳转志愿者</navigator>
+</view>
+<view class="page-body">
+	<view class="page-section page-section-spacing swiper">
+		<swiper indicator-dots="true" autoplay="true" interval="2000" duration="500">
+			<block wx:for="{{background}}" wx:key="index">
+				<swiper-item>
+					<image class="banner-img" src="{{item}}"></image>
+				</swiper-item>
+			</block>
+		</swiper>
+	</view>
+</view>
+<view class="sort-con">
+	<view class="sort-b" wx:for="{{imglist}}" wx:key="index">
+		<image class="sort-img" src="{{item.path}}"></image>
+		<text class="sort-text">{{item.value}}</text>
+	</view>
+</view>
+<view class="content" wx:for="{{contentlist}}" wx:key="index">
+	<view class="title">
+		<image class="title-img" src="{{item.tit_img}}"></image><text class="con-text">{{item.title}}</text>
+		<text class="most">查看更多></text>
+	</view>
+	<view data="{{item.id == 0}}" wx:for="{{canjia}}" wx:key="index">
+		<template is="canItem" data="{{item}}"/>
+	</view>
+	<view data="{{item.id == 1}}" wx:for="{{zhao}}" wx:key="index">
+		<template is="canItem" data="{{item}}"/>
+	</view>
 </view>
 
+
+<template name="canItem">
+	<view class="act-box">
+		<image class="act-img" src="https://cishan.xabcx.cn{{item.activity.imgList[0]}}"></image>
+		<view class="act-right">
+			<text class="act-title">{{item.activity.flag}}</text>
+			<text class="act-address">地点：{{item.activity.address}}</text>
+			<text class="act-hour">时间：{{item.activity.date}}</text>
+			<text class="act-person">组织者：志愿者协会</text>
+		</view>
+		<navigator url="../details/details?id={{item.activity.id}}" class="act-seen">查看</navigator>
+	</view>
+</template>
+<template name="actItem">
+	<view class="act-box">
+		<image class="act-img" src="https://cishan.xabcx.cn{{item.imgList[0]}}"></image>
+		<view class="act-right">
+			<text class="act-title">{{item.title}}</text>
+			<text class="act-address">地点：{{item.address}}</text>
+			<text class="act-hour">时间：{{item.date}}</text>
+			<text class="act-person">组织者：志愿者协会</text>
+		</view>
+		<navigator url="../details/details?id={{item.id}}" class="act-seen">查看</navigator>
+	</view>
+</template>

@@ -1,0 +1,35 @@
+<!--pages/person3/person3.wxml-->
+<!-- <text>pages/person3/person3.wxml</text> -->
+<view class="contrent">
+	<block>
+		<view class="act_name">
+			<view class="act_time"><text>活动时间</text><input id="input_time"></input></view>
+			<view class="act_long_time"><text>活动时长</text><input class="input_long_time"></input></view>
+			<view class="act_sex">
+				<text>性别</text>
+        <radio-group  bindchange="radiochange" >
+            <label class="radio" >
+					    <radio value="r1" checked="true" color="#f99" />男
+				    </label>
+				    <label class="radio" >
+				  	  <radio value="r2"   color="#f99" />女
+				    </label>
+        </radio-group>
+				
+
+			</view>
+			<view class="act_address"><text>姓名</text><input class="input_address"></input></view>
+		</view>
+    <view class="act_pic">
+      <view class="act_pho">活动图片</view>
+      <view class="act_xj">
+      <image src="../../img/xiangji.png"></image>
+      <text>活动图片</text>
+      </view>
+    </view>
+	</block>
+</view>
+<view class="person1-btn">
+    <button plain="true">点击确认</button>
+</view>
+

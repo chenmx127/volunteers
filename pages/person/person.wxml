@@ -13,7 +13,10 @@
 </view>
 <view class="person-active">
 	<!-- 我的活动 -->
-	<view class="active-h">我的活动</view>
+	<navigator  url="../person3/person3">
+		 <view class="active-h">我的活动</view>
+	</navigator>
+
 	<view class="active-list">
 		<view>
 			<image src="../../img/ybm.png"></image>

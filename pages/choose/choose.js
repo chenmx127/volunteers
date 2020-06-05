@@ -1,8 +1,11 @@
 // pages/choose/choose.js
 Page({
+<<<<<<< HEAD
   bindtap:function(e) {
     console.log(e)
   },
+=======
+>>>>>>> d2b756fe1057f78723a3d2a27722c5288f2ccde1
   /**
    * 页面的初始数据
    */

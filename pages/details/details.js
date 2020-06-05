@@ -13,8 +13,9 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad (options) {
-    details.TEER('/volunteer/website/huodong','GET',{ id: "6f9b97b1118a43e7991260cc834491b6"},res=>{
-      console.log(res);
+    let oid = options.id;
+    details.TEER('/volunteer/website/huodong','GET',{ id: oid},res=>{
+      // console.log(res);
       this.setData({
         detlist:res.data.data
       })

@@ -61,8 +61,9 @@
   我要报名
     <text>25人已报名</text>
   </view>
-  <view class="agree">
-  <view class="agree-no" hover-class="no"></view>
+  <view class="agree" hover-class="hoverxz" hover-stay-time="9000">
+		<image class="wxz" src="../../img/weixuanzhong.png"></image>
+    <image class="xz" src="../../img/xuanzhong.png"></image>
   我已经阅读并同意<text>《用户报名条例》</text>
   </view>
 </view>

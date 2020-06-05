@@ -9,7 +9,7 @@
    <image src="../../img/kehu.png"></image>
     <text class="civit">我 是 客 户</text>
   </view>
-  <view class="cuntion" bindtap="cunclick">
+  <view class="cuntion">
    <image src="../../img/xxs.png"></image>
     <text class="item-vit">志 愿 者 们</text>
   </view>
