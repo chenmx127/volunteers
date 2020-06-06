@@ -126,3 +126,7 @@
     padding: 6rpx 30rpx;
     border-radius: 50rpx;
 }
+.act-seen:hover{
+  background-color: #f00;
+  color: #fff;
+}

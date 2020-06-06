@@ -6,7 +6,17 @@ Page({
    * 页面的初始数据
    */
   data: {
-    detlist:{}
+    detlist:{},
+    latitude:"",
+    longitude:"",
+    markers: [{
+      iconPath: "../../img/map.png",
+      id: 0,
+      latitude: 23.099994,
+      longitude: 113.324520,
+      width: 50,
+      height: 50
+    }]
   },
 
   /**
@@ -19,6 +29,17 @@ Page({
       this.setData({
         detlist:res.data.data
       })
+    }),
+    wx.getLocation({
+      success:res=>{
+        // console.log(res);
+        this.setData({
+          latitude:res.latitude,
+          longitude:res.longitude,
+          "markers[0].latitude":res.latitude,
+          "markers[0].longitude":res.longitude,
+        })
+      }
     })
   },
 
