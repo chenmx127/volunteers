@@ -42,10 +42,10 @@
   width:50rpx;
   height:50rpx;
 }
-.active-list view{
+.active-list view,.active-list .nav{
   text-align: center;
 }
-.active-list view  view{
+.active-list view  view,.active-list .nav view{
   font-size:30rpx;
   color:#817376;
 }

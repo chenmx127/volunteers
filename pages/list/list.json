@@ -1,4 +1,5 @@
 {
   "usingComponents": {},
-  "navigationBarTitleText": "志愿者名单"
+  "navigationBarTitleText": "志愿者名单",
+  "navigationBarBackgroundColor": "#ECEEF1"
 }

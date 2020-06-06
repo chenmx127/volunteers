@@ -1,18 +1,29 @@
 // pages/list/list.js
+let list=require('../../utils/api.js');
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    list:[]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-
+  onLoad(options) {
+    console.log(options);
+    let oid = options.id;
+    list.TEER('/volunteer/website/zyz?id='+oid,'GET',{id:oid},
+    res=>{
+      console.log(res);
+      if(res.data.data != null){
+        this.setData({
+        list:res.data.data
+      })
+      }
+    })
   },
 
   /**

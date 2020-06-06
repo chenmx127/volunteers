@@ -17,10 +17,10 @@ page{
 .zixun-top{
   position: relative;
 }
-.zixun image{
+.zixun .zixun-img{
   width: 120rpx;
   height: 120rpx;
-  border-radius: 50rpx;
+  border-radius: 50%;
 }
 .top-tit{
   position: absolute;
@@ -34,13 +34,21 @@ page{
   top: 70rpx;
   left: 160rpx;
   color: #999;
+
 }
 .zixun-bom{
   margin-top: 20rpx;
 }
 .zixun-con{
+  display: block;
   color: #666;
   font-size: 30rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-clamp: 2;
+  width: 478rpx;
+  height: 80rpx;
 }
 .zi-time{
   color: #999;

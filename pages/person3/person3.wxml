@@ -29,7 +29,7 @@
     </view>
 	</block>
 </view>
-<view class="person1-btn">
+<navigator url="../affirm/affirm" class="person1-btn">
     <button plain="true">点击确认</button>
-</view>
+</navigator>
 

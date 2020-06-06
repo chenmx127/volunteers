@@ -25,13 +25,16 @@
 }
 .jion {
   font-size: 40rpx;
-  color: #f99;
+  color: #000;
   font-weight: 700rpx;
 }
 .after {
   font-size: 40rpx;
   color: #000;
   font-weight: 700rpx;
+}
+.item_active>text:hover{
+  color: #f99;
 }
 .line {
   position: absolute;

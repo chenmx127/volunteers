@@ -26,7 +26,7 @@ Page({
     shouye.TEER('/volunteer/website/canjiaList','GET',{
       openId:"oiUyR4iykJCuGJOFg6t2IgGN0_xA",type:1,type1:1
     },res=>{
-      console.log(res)
+      // console.log(res)
       this.setData({
         canjia:res.data.data.list
       })
@@ -34,7 +34,7 @@ Page({
     shouye.TEER('/volunteer/website/canjiaList','GET',{
       openId:"oiUyR4iykJCuGJOFg6t2IgGN0_xA",type:2,type1:1
     },res=>{
-      console.log(res)
+      // console.log(res)
       this.setData({
         zhao:res.data.data.list
       })

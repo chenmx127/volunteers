@@ -46,7 +46,8 @@
 </template>
 <template name="actItem">
 	<view class="act-box">
-		<image class="act-img" src="https://cishan.xabcx.cn{{item.imgList[0]}}"></image>
+	<navigator url="../list/list?id={{item.id}}">
+		<image class="act-img" src="https://cishan.xabcx.cn{{item.imgList[0]}}"></image></navigator>
 		<view class="act-right">
 			<text class="act-title">{{item.title}}</text>
 			<text class="act-address">地点：{{item.address}}</text>

@@ -1,18 +1,26 @@
 // pages/call/call.js
+let call = require('../../utils/api.js');
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    call:[]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-
+  onLoad(options) {
+    call.TEER('/volunteer/website/canjiaList','GET',{
+      openId:"oiUyR4iykJCuGJOFg6t2IgGN0_xA",type:1,type:1
+    },res=>{
+      // console.log(res)
+      this.setData({
+        call:res.data.data.list
+      })
+    })
   },
 
   /**

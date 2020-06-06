@@ -13,12 +13,9 @@
 </view>
 <view class="person-active">
 	<!-- 我的活动 -->
-	<navigator  url="../person3/person3">
-		 <view class="active-h">我的活动</view>
-	</navigator>
-
+	<view class="active-h">我的活动</view>
 	<view class="active-list">
-		<navigator url="../choose/choose">
+		<navigator url="../choose/choose" class="nav">
 			<image src="../../img/ybm.png"></image>
 			<view class="">已报名</view>
 		</navigator>
@@ -26,7 +23,7 @@
 			<image src="../../img/ycj.png"></image>
 			<view>已参加</view>
 		</view>
-		<navigator url="../person2/person2">
+		<navigator url="../person2/person2" class="nav">
 			<image src="../../img/ywc.png"></image>
 			<view>已完成</view>
 		</navigator>
@@ -35,8 +32,10 @@
 <view class="person-menus">
 	<!-- 个人中心的下部的列表 -->
 	<view class="person-menu">
-		<view><text>我的资料</text>	
-		<navigator url="../person1/person1"><image src="../../img/jiantou.png"></image></navigator>   <!-- 跳转到编辑个人资料的页面 后面重新更换接口-->
+		<view><text>我的资料</text>
+			<navigator url="../person1/person1">
+				<image src="../../img/jiantou.png"></image>
+			</navigator> <!-- 跳转到编辑个人资料的页面 后面重新更换接口-->
 		</view>
 		<view> <text>政策法规</text>
 			<image src="../../img/jiantou.png"></image>
@@ -53,8 +52,8 @@
 		<view> <text>意见反馈</text>
 			<image src="../../img/jiantou.png"></image>
 		</view>
-		<view> 
-		  <text  class="gengduo">更多</text>
+		<view>
+			<text  class="gengduo">更多</text>
 			<image src="../../img/jiantou.png"></image>
 		</view>
 	</view>
