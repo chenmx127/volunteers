@@ -2,6 +2,6 @@
 <view class="force_now">
  <image src="../../img/zcfg1.png"></image>
 </view>
-<view class="have-been">
+<navigator url="../index/index" open-type="switchTab" class="have-been">
   <image src="../../img/hdzm2.png"></image>
-</view>
+</navigator>

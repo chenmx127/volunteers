@@ -50,9 +50,9 @@
       <image src="../../img/jiantou.png"></image>
    </view>
 </view>
-<view class="person1-btn">
+<navigator url="../person/person" open-type="switchTap" class="person1-btn">
     <button plain="true">点击确认</button>
-</view>
+</navigator>
 <view class="person1-serves"   hover-class="hoverxz" hover-stay-time="9000">
     <image class="wxz" src="../../img/weixuanzhong.png"></image>
     <image class="xz" src="../../img/xuanzhong.png"></image>

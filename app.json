@@ -13,8 +13,7 @@
     "pages/list/list",
     "pages/affirm/affirm",
     "pages/call/call",
-    "pages/person3/person3",
-    "pages/cc/cc"
+    "pages/person3/person3"
   ],
   "window":{
     "backgroundTextStyle":"light",
