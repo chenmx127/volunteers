@@ -1,18 +1,22 @@
 // pages/person2/person2.js
+let actives = require("../../utils/api.js")
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+     vlteer:[]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+      actives.TEER("volunteer/website/huodongList","GET","{}",(res)=>{
+        console.log(res)
+        this.setData({vlteer:res.data.data.list})
+      })
   },
 
   /**

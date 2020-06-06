@@ -125,10 +125,18 @@
 .person2-by view view text:nth-child(1){
   font-size: 33rpx;
   line-height: 50rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width:250rpx;
 }
 .person2-by view view text:nth-child(2),.person2-by view text:nth-child(2), .person2-by view text:nth-child(3){
-  font-size:28rpx;
-  color:#B1A3A3;
+  font-size: 28rpx;
+  color: #B1A3A3;
+  display: inline-block;
+  width: 545rpx;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .person2-by > view {
   border-bottom: 1rpx solid #E6E6E6;
@@ -143,6 +151,8 @@
   color: #FE4A5D;
 }
 
-
+.person2-by view view text:nth-child(2){
+  width:150rpx;
+}
 
 
