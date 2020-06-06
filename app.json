@@ -13,7 +13,8 @@
     "pages/list/list",
     "pages/affirm/affirm",
     "pages/call/call",
-    "pages/person3/person3"
+    "pages/person3/person3",
+    "pages/logs/logs"
   ],
   "permission": {
     "scope.userLocation": {

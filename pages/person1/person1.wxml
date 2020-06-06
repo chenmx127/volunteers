@@ -50,7 +50,7 @@
       <image src="../../img/jiantou.png"></image>
    </view>
 </view>
-<navigator url="../person/person" open-type="switchTap" class="person1-btn">
+<navigator url="../person/person" open-type="switchTab" class="person1-btn">
     <button plain="true">点击确认</button>
 </navigator>
 <view class="person1-serves"   hover-class="hoverxz" hover-stay-time="9000">

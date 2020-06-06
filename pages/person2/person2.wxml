@@ -9,7 +9,6 @@
 			<view>
 				<image src="../../img/xingji.png"></image>
             <text class="vlter-2">星际志愿者</text>
-             
 			</view>
 		</view>
 		<image class="p2-touxiang" src="../../img/touxiang2.jpg"></image> <!--  头像  -->
@@ -45,34 +44,4 @@
       <text>时长：{{vlt.time}}</text>   
       <text>+5</text>
    </view>
- 
-
-
-
-
-   <!-- <view>
-      <view>
-            <text >帮助孤寡老人打扫（志愿者协会承办）</text><text class="date">2020-3-20</text>
-      </view>
-      <text>地点：某某广场</text>
-      <text>时长：2:3:00</text>   
-      <text>+5</text>
-   </view>
-   <view>
-      <view>
-            <text >帮助孤寡老人打扫（志愿者协会承办）</text><text class="date">2020-3-20</text>
-      </view>
-      <text>地点：某某广场</text>
-      <text>时长：2:3:00</text>   
-      <text>+5</text>
-   </view>
-   <view>
-      <view>
-            <text >帮助孤寡老人打扫（志愿者协会承办）</text><text class="date">2020-3-20</text>
-      </view>
-      <text>地点：某某广场</text>
-      <text>时长：2:3:00</text>   
-      <text>+5</text>
-   </view> -->
-
 </view>

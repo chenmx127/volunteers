@@ -152,7 +152,7 @@
 }
 
 .person2-by view view text:nth-child(2){
-  width:150rpx;
+  width:140rpx;
 }
 
 
