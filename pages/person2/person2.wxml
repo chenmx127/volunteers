@@ -7,7 +7,9 @@
 			<!-- 左上角的志愿者字样  -->
 			<text class="vlter-1">志愿者</text>
 			<view>
-				<image src="../../img/xingji.png"></image> <text class="vlter-2">星际志愿者</text>
+				<image src="../../img/xingji.png"></image>
+            <text class="vlter-2">星际志愿者</text>
+             
 			</view>
 		</view>
 		<image class="p2-touxiang" src="../../img/touxiang2.jpg"></image> <!--  头像  -->
@@ -34,8 +36,21 @@
    <text class="title">献爱心时间</text>
    <text class="lately">（最近20条）：</text>
 </view><text></text>
-<view class="person2-by">
-   <view>
+<view class="person2-by"  wx:for="{{vlteer}}"  wx:key="index"  wx:for-item="vlt">
+    <view >
+      <view>
+            <text >帮助孤寡老人打扫（志愿者协会承办）</text><text class="date">{{vlt.date}}</text>
+      </view>
+      <text>地点：{{vlt. address}}</text>
+      <text>时长：{{vlt.time}}</text>   
+      <text>+5</text>
+   </view>
+ 
+
+
+
+
+   <!-- <view>
       <view>
             <text >帮助孤寡老人打扫（志愿者协会承办）</text><text class="date">2020-3-20</text>
       </view>
@@ -58,14 +73,6 @@
       <text>地点：某某广场</text>
       <text>时长：2:3:00</text>   
       <text>+5</text>
-   </view>
-   <view>
-      <view>
-            <text >帮助孤寡老人打扫（志愿者协会承办）</text><text class="date">2020-3-20</text>
-      </view>
-      <text>地点：某某广场</text>
-      <text>时长：2:3:00</text>   
-      <text>+5</text>
-   </view>
+   </view> -->
 
 </view>
