@@ -1,7 +1,7 @@
 <!--pages/publish/publish.wxml-->
 
-<navigator url="../set_act/set_act" class="act_box">
-	<image class="act_img" src="../../img/touxiang2.jpg"></image>
+<navigator url="../publish/publish" class="act_box"> 
+		<open-data type="userAvatarUrl" class="act_img"></open-data>
 </navigator>
 <view class="item_box">
 	<view class="item_active">

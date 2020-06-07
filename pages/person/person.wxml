@@ -1,5 +1,5 @@
 <!--pages/person/person.wxml-->
-<view class="beijing">
+<view class="beijing" style="background:url('../../img/toutou.jpg');background-position:-170rpx">
 	<!-- 个人中心的头部背景图片上的 -->
 	<view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
@@ -8,7 +8,6 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-	<image class="beijing-img" src="../../img/toutou.jpg"></image>
 	<view class="person-head">
 		<view class="zhanghao"> 177****8932</view>
 		<view class="person-vip">

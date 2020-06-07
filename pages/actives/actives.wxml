@@ -1,7 +1,7 @@
 <!--pages/actives/actives.wxml-->
 
 <navigator url="../publish/publish" class="act_box"> 
-  <image class="act_img" src="../../img/touxiang2.jpg"></image>
+			<open-data type="userAvatarUrl" class="act_img"></open-data>
 </navigator>
 <view class="item_box">
   <view class="item_active">
@@ -29,3 +29,8 @@
 		<template is="actItem" data="{{item}}" />
 	</view>
 </view>
+
+
+<!-- <open-data type="groupName" open-gid="xxxxxx"></open-data>
+<open-data type="userAvatarUrl"></open-data>
+<open-data type="userGender" lang="zh_CN"></open-data> -->

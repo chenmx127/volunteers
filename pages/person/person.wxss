@@ -1,14 +1,12 @@
 
 .beijing{
   position:relative;
-  z-index: -1;
+  height: 530rpx;
 }
 .userinfo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: absolute;
-  left: 300rpx;
 }
 .userinfo-avatar {
   width: 128rpx;
@@ -17,7 +15,7 @@
   border-radius: 50%;
 }
 .userinfo-nickname {
-  color: #aaa;
+  color: #fff;
 }
 
 .person-head{
