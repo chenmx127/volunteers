@@ -4,11 +4,12 @@
   display: flex;
   align-items: center;
 }
-.person1-head image{
+.person1-head .person1_open {
   width: 150rpx;
   height: 150rpx;
   border-radius: 50%;
   margin-right:30rpx;
+  overflow: hidden;
 }
 .person1-list{
   font-size: 35rpx;

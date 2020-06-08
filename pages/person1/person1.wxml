@@ -1,7 +1,7 @@
 <!--pages/person1/person1.wxml 编辑个人资料-->
 <view class="person1-head">
-   <image src="../../img/touxiang2.jpg"></image>
-   <text>昵称</text>
+   <open-data type="userAvatarUrl" class="person1_open"></open-data>
+   <text>昵称：{{userInfo.nickName}}</text>
 </view>
 <view class="person1-list">
    <view class="list1">

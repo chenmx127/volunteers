@@ -11,7 +11,7 @@
             <text class="vlter-2">星际志愿者</text>
 			</view>
 		</view>
-		<image class="p2-touxiang" src="../../img/touxiang2.jpg"></image> <!--  头像  -->
+			<open-data type="userAvatarUrl" class="p2-touxiang"></open-data>
 	</view>
 	<view class="bottom">
 		<!--下部 提示框  -->

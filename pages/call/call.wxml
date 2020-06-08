@@ -7,7 +7,7 @@
 			<text class="top-span">{{item.activity.address}}</text>
 		</view>
 		<view class="zixun-bom">
-			<text class="zixun-con">{{item.activity.content}}</text>
+			<rich-text nodes="{{item.activity.content}}" class="zixun-con"></rich-text>
 			<text class="zi-time">45分钟前</text>
 		</view>
 		<navigator url="../details/details?id={{item.activity.id}}" class="dianji">
